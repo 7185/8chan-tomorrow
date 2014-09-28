@@ -100,6 +100,15 @@ hr {
 div#options_div {
   background-color:#282a2e
 }
+div.options_tab_icon {
+  color: #AAA
+}
+div.options_tab_icon:hover {
+  background-color: #111
+}
+div.options_tab_icon.active {
+  color: #F20
+}
 div.blotter {
   color:#F20
 }
