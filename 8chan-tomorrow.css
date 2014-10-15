@@ -22,14 +22,14 @@ div.banner {
 }
 div.post.reply {
   background-color:#282a2e;
-  border:2px solid #282a2e;
+  border:1px solid #282a2e;
   margin-bottom:2px;
   margin-left:16px;
   margin-top:2px
 }
 div.post.reply.highlighted {
-  background-color:#282a2e;
-  border:2px solid #a04a2c
+  background-color:#1d1d21;
+  border:1px solid #111
 }
 div.post.reply div.body a {
   color:#81a2be
@@ -59,8 +59,7 @@ span.heading {
 }
 form table tr th {
   background:#282a2e;
-  border:1px solid;
-  border-color:#111;
+  border:1px solid #111;
   color:#C5C8C6
 }
 div.ban h2 {
@@ -117,4 +116,20 @@ span.omitted {
 }
 p.intro a, span.omitted a {
   text-decoration:none
+}
+form#quick-reply {
+  padding-right:1px;
+  border: 1px solid #111
+}
+span.capcode {
+  background-color: #000;
+  padding: 2px 5px 2px 5px;
+  border-radius: 10px
+}
+/* Keep small thumbnails */
+a:not([data-expanded="true"]) .post-image{
+  width:auto !important;
+  height:auto !important;
+  max-height:200px !important;
+  max-width:200px !important
 }
