@@ -86,7 +86,7 @@ div.boardlist {
 }
 div.boardlist:nth-of-type(1) {
   border-bottom:1px solid #111!important;
-  box-shadow: 0px 0px 3px 0px #111
+  box-shadow:0 0 3px 0 #111
 }
 div.boardlist a {
   color:#81a2be
@@ -123,13 +123,24 @@ form#quick-reply {
 }
 span.capcode {
   background-color: #000;
-  padding: 2px 5px 2px 5px;
+  padding:2px 5px;
   border-radius: 10px
+}
+div#watchlist {
+ border:1px solid #111;
+ background-color:#282a2e
+}
+div#watchlist a,a.watchThread {
+  color:#81a2be;
+  text-decoration:none
+}
+div#watchlist a:hover,a.watchThread:hover {
+  color:#5F89AC
 }
 /* Keep small thumbnails */
 a:not([data-expanded="true"]) .post-image{
-  width:auto !important;
-  height:auto !important;
-  max-height:200px !important;
-  max-width:200px !important
+  width:auto!important;
+  height:auto!important;
+  max-height:200px!important;
+  max-width:200px!important
 }
