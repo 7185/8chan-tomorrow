@@ -41,9 +41,9 @@ div.post-hover {
   border:1px solid #000!important;
   box-shadow:none!important
 }
-div.thread:hover {
+.theme-catalog div.thread:hover {
   background-color:#1d1f21;
-  border-color:#000
+  border-color:#111
 }
 p.intro span.subject {
   color:#b294bb
@@ -114,7 +114,7 @@ div.blotter {
 span.omitted {
   color:#707070
 }
-p.intro a, span.omitted a {
+p.intro a,span.omitted a {
   text-decoration:none
 }
 form#quick-reply {
@@ -126,7 +126,7 @@ span.capcode {
   padding:2px 5px;
   border-radius: 10px
 }
-div#watchlist {
+div#watchlist,div#alert_div {
  border:1px solid #111;
  background-color:#282a2e
 }
