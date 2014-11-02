@@ -1,3 +1,9 @@
+/** TOMORROW, I'LL ...
+
+A cool dark skin by 7185.
+https://github.com/7185/8chan-tomorrow/
+
+**/
 body {
   background:#1d1f21 none;
   color:#C5C8C6
@@ -100,13 +106,13 @@ div#options_div {
   background-color:#282a2e
 }
 div.options_tab_icon {
-  color: #AAA
+  color:#AAA
 }
 div.options_tab_icon:hover {
-  background-color: #111
+  background-color:#111
 }
 div.options_tab_icon.active {
-  color: #F20
+  color:#F20
 }
 div.blotter {
   color:#F20
@@ -127,8 +133,8 @@ span.capcode {
   border-radius: 10px
 }
 div#watchlist,div#alert_div {
- border:1px solid #111;
- background-color:#282a2e
+  border:1px solid #111;
+  background-color:#282a2e
 }
 div#watchlist a,a.watchThread {
   color:#81a2be;
@@ -137,10 +143,19 @@ div#watchlist a,a.watchThread {
 div#watchlist a:hover,a.watchThread:hover {
   color:#5F89AC
 }
-/* Keep small thumbnails */
-a:not([data-expanded="true"]) .post-image{
+
+/* Remove the following parts if those annoy you */
+/* Youtube borders */
+div.video-container img.post-image {
+  border-color:#fff;
+  border-width:2px;
+  border-style:none dotted none;
+  padding:0
+}
+/* Keep small thumbnails in replies */
+.post.reply a:not([data-expanded="true"]) .post-image{
   width:auto!important;
   height:auto!important;
-  max-height:200px!important;
-  max-width:200px!important
+  max-height:160px;
+  max-width:160px
 }
