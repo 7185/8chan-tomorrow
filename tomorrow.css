@@ -147,6 +147,7 @@ div#watchlist a:hover,a.watchThread:hover {
 /* Remove the following parts if those annoy you */
 /* Youtube borders */
 div.video-container img.post-image {
+  background-color:#000;
   border-color:#fff;
   border-width:2px;
   border-style:none dotted none;
